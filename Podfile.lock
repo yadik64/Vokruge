@@ -1,0 +1,107 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Differentiator (4.0.1)
+  - Kingfisher (5.10.1):
+    - Kingfisher/Core (= 5.10.1)
+  - Kingfisher/Core (5.10.1)
+  - Mapbox-iOS-SDK (5.5.0)
+  - ObjectMapper (3.5.1)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxFlow (2.5.0):
+    - RxCocoa (>= 5.0.0)
+    - RxSwift (>= 5.0.0)
+  - RxGesture (3.0.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SwiftLint (0.35.0)
+  - Swinject (2.7.1)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.2)
+  - Kingfisher (= 5.10.1)
+  - Mapbox-iOS-SDK (~> 5.5.0)
+  - ObjectMapper (= 3.5.1)
+  - R.swift (= 5.0.3)
+  - Reusable (= 4.1.0)
+  - RxAlamofire (= 5.1.0)
+  - RxCocoa (= 5.0.0)
+  - RxDataSources (= 4.0.1)
+  - RxFlow
+  - RxGesture (= 3.0.1)
+  - RxSwift (= 5.0.0)
+  - SwiftLint (= 0.35.0)
+  - Swinject (= 2.7.1)
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Differentiator
+    - Kingfisher
+    - Mapbox-iOS-SDK
+    - ObjectMapper
+    - R.swift
+    - R.swift.Library
+    - Reusable
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxFlow
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SwiftLint
+    - Swinject
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
+  Mapbox-iOS-SDK: 7fa66a27e586acb14c7f32ec5a487343e3994451
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxFlow: 1beb3ef121e2c58620fd4f8445c855ca1dbfc8c7
+  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftLint: 5553187048b900c91aa03552807681bb6b027846
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: e138526cad6d13e2ea976a1d5b0228bca594b64f
+
+COCOAPODS: 1.8.4

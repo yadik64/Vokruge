@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SubcategoriesCell" rowHeight="45" id="KGk-i7-Jjw" customClass="SubcategoriesCell" customModule="Vokruge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevronRight" translatesAutoresizingMaskIntoConstraints="NO" id="Fck-oB-EjS">
+                        <rect key="frame" x="280" y="10.5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="2sR-J2-o5X"/>
+                            <constraint firstAttribute="height" constant="24" id="40u-Za-mZe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vap-ha-s10">
+                        <rect key="frame" x="16" y="10" width="254" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="YYv-vS-abc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vap-ha-s10" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6Cd-DL-ULL"/>
+                    <constraint firstItem="vap-ha-s10" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="JJe-Cd-sKY"/>
+                    <constraint firstItem="vap-ha-s10" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="PfB-nN-IHj"/>
+                    <constraint firstItem="Fck-oB-EjS" firstAttribute="leading" secondItem="vap-ha-s10" secondAttribute="trailing" constant="10" id="QeT-JQ-fzU"/>
+                    <constraint firstAttribute="trailing" secondItem="Fck-oB-EjS" secondAttribute="trailing" constant="16" id="eca-So-y6n"/>
+                    <constraint firstItem="Fck-oB-EjS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rdN-1c-V9c"/>
+                    <constraint firstAttribute="bottom" secondItem="vap-ha-s10" secondAttribute="bottom" constant="10" id="yya-4K-vH7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="rightChevronImageView" destination="Fck-oB-EjS" id="9p2-9o-arY"/>
+                <outlet property="subcategoriesNameLabel" destination="vap-ha-s10" id="1eN-Su-uLZ"/>
+            </connections>
+            <point key="canvasLocation" x="55.072463768115945" y="25.78125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevronRight" width="24" height="24"/>
+    </resources>
+</document>

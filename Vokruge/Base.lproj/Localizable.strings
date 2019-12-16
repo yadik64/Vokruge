@@ -1,0 +1,16 @@
+"tabBarItem.map" = "Карта";
+"tabBarItem.categories" = "Категории";
+"tabBarItem.promotion" = "Акции";
+"tabBarItem.events" = "Мероприятия";
+"tabBarItem.other" = "Прочее";
+
+"searchBar.placeholder" = "Поиск...";
+
+"categories.title" = "Категории";
+
+"mainScreen.search.historyEmpty" = "Ваша история поисков пока чиста. Напишите свой первый запрос, а мы его запомним.";
+"mainScreen.search.clearButton" = "Очистить историю";
+
+"companyDetails.pageTab.info" = "ИНФОРМАЦИЯ";
+"companyDetails.pageTab.reviews" = "ОТЗЫВЫ";
+"companyDetails.pageTab.more" = "ПОДРОБНЕЕ";

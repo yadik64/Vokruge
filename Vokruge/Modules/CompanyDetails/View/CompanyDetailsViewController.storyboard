@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="73O-hU-9Mz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Company Details View Controller-->
+        <scene sceneID="2lK-ex-LtZ">
+            <objects>
+                <viewController id="73O-hU-9Mz" customClass="CompanyDetailsViewController" customModule="Vokruge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2os-H1-lYD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testPhotoCompany" translatesAutoresizingMaskIntoConstraints="NO" id="2fB-wV-gTF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="212"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="212" id="B0H-tF-pF2"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wi-8w-wVx" userLabel="ContentView">
+                                <rect key="frame" x="0.0" y="212" width="414" height="684"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2fB-wV-gTF" firstAttribute="top" secondItem="2os-H1-lYD" secondAttribute="top" id="7T2-G9-Pwb"/>
+                            <constraint firstItem="1wi-8w-wVx" firstAttribute="top" secondItem="2fB-wV-gTF" secondAttribute="bottom" id="7vY-p0-R44"/>
+                            <constraint firstAttribute="bottom" secondItem="1wi-8w-wVx" secondAttribute="bottom" id="M1K-sY-cJO"/>
+                            <constraint firstItem="2fB-wV-gTF" firstAttribute="leading" secondItem="xHb-lq-6S4" secondAttribute="leading" id="SOU-GT-qyR"/>
+                            <constraint firstItem="2fB-wV-gTF" firstAttribute="trailing" secondItem="xHb-lq-6S4" secondAttribute="trailing" id="fgC-9x-0Ww"/>
+                            <constraint firstItem="1wi-8w-wVx" firstAttribute="trailing" secondItem="xHb-lq-6S4" secondAttribute="trailing" id="qYt-iu-E9d"/>
+                            <constraint firstItem="1wi-8w-wVx" firstAttribute="leading" secondItem="xHb-lq-6S4" secondAttribute="leading" id="zav-y9-QN7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xHb-lq-6S4"/>
+                    </view>
+                    <connections>
+                        <outlet property="companyImage" destination="2fB-wV-gTF" id="fqQ-mI-HjN"/>
+                        <outlet property="contentView" destination="1wi-8w-wVx" id="BGk-Qf-1Op"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaU-IE-dT1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="testPhotoCompany" width="275" height="183"/>
+    </resources>
+</document>

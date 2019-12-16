@@ -1,0 +1,144 @@
+%PDF-1.7
+
+1 0 obj
+  << /BBox [ 0.000000 0.000000 16.000000 20.000000 ]
+     /Resources << >>
+     /Subtype /Form
+     /Length 2 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Type /XObject
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+-1.000000 0.000000 -0.000000 -1.000000 16.000000 20.055542 cm
+1.000000 1.000000 1.000000 scn
+12.037289 10.454243 m
+1.119212 19.888937 l
+0.862145 20.111076 0.449867 20.111076 0.192800 19.888937 c
+-0.064267 19.666796 -0.064267 18.777683 0.192800 18.555542 c
+9.599999 10.055542 l
+0.192800 1.555542 l
+-0.064267 1.333401 -0.064267 0.445337 0.192800 0.223196 c
+0.318909 0.114222 0.488670 0.055542 0.653581 0.055542 c
+0.818492 0.055542 0.988254 0.110029 1.114362 0.223196 c
+12.032440 9.657889 l
+12.289507 9.875839 12.289506 10.236294 12.037289 10.454243 c
+h
+f
+n
+Q
+
+endstream
+endobj
+
+2 0 obj
+  587
+endobj
+
+3 0 obj
+  << /BBox [ 0.000000 0.000000 16.000000 20.000000 ]
+     /Resources << >>
+     /Subtype /Form
+     /Length 4 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Type /XObject
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+-1.000000 0.000000 -0.000000 -1.000000 16.000000 20.000000 cm
+0.000000 0.000000 0.000000 scn
+0.000000 20.000000 m
+16.000000 20.000000 l
+16.000000 0.000000 l
+0.000000 0.000000 l
+h
+f*
+n
+Q
+
+endstream
+endobj
+
+4 0 obj
+  216
+endobj
+
+5 0 obj
+  << /XObject << /X1 1 0 R >>
+     /ExtGState << /E1 << /SMask << /Type /Mask
+                                    /G 3 0 R
+                                    /S /Alpha
+                                 >>
+                          /Type /ExtGState
+                       >> >>
+  >>
+endobj
+
+6 0 obj
+  << /Length 7 0 R >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+/E1 gs
+/X1 Do
+Q
+
+endstream
+endobj
+
+7 0 obj
+  46
+endobj
+
+8 0 obj
+  << /MediaBox [ 0.000000 0.000000 16.000000 20.000000 ]
+     /Resources 5 0 R
+     /Contents 6 0 R
+     /Parent 9 0 R
+     /Type /Page
+  >>
+endobj
+
+9 0 obj
+  << /Kids [ 8 0 R ]
+     /Count 1
+     /Type /Pages
+  >>
+endobj
+
+10 0 obj
+  << /Type /Catalog
+     /Pages 9 0 R
+  >>
+endobj
+
+xref
+0 11
+0000000000 65535 f 
+0000000010 00000 n 
+0000000845 00000 n 
+0000000867 00000 n 
+0000001331 00000 n 
+0000001353 00000 n 
+0000001651 00000 n 
+0000001753 00000 n 
+0000001774 00000 n 
+0000001931 00000 n 
+0000002005 00000 n 
+trailer
+<< /ID [ (some) (id) ]
+   /Root 10 0 R
+   /Size 11
+>>
+startxref
+2065
+%%EOF

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L7n-ay-Wr9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search Result View Controller-->
+        <scene sceneID="23h-Ql-nWe">
+            <objects>
+                <viewController id="L7n-ay-Wr9" customClass="SearchResultViewController" customModule="Vokruge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aXe-EQ-IMG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcO-GL-dn7" customClass="MGLMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hcO-GL-dn7" firstAttribute="bottom" secondItem="VfR-rv-Oy2" secondAttribute="bottom" id="324-Rg-AVi"/>
+                            <constraint firstItem="hcO-GL-dn7" firstAttribute="top" secondItem="aXe-EQ-IMG" secondAttribute="top" id="8M4-8x-aDG"/>
+                            <constraint firstItem="hcO-GL-dn7" firstAttribute="leading" secondItem="VfR-rv-Oy2" secondAttribute="leading" id="HIz-7k-cpz"/>
+                            <constraint firstItem="hcO-GL-dn7" firstAttribute="trailing" secondItem="VfR-rv-Oy2" secondAttribute="trailing" id="Wcw-r1-tMt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VfR-rv-Oy2"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="hcO-GL-dn7" id="s6e-8C-Dc6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23a-tM-cie" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="83" y="90"/>
+        </scene>
+    </scenes>
+</document>

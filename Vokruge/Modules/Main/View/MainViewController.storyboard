@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VgZ-lP-7MR">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="v90-uf-lSY">
+            <objects>
+                <viewController id="VgZ-lP-7MR" customClass="MainViewController" customModule="Vokruge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zZC-qe-oeE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-A4-wyg" customClass="MGLMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsUserLocation" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsScale" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsHeading" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="iP3-A4-wyg" firstAttribute="bottom" secondItem="awh-xj-ZlZ" secondAttribute="bottom" id="35t-Z2-rg8"/>
+                            <constraint firstItem="iP3-A4-wyg" firstAttribute="top" secondItem="zZC-qe-oeE" secondAttribute="top" id="9Gl-wY-Efs"/>
+                            <constraint firstItem="iP3-A4-wyg" firstAttribute="leading" secondItem="awh-xj-ZlZ" secondAttribute="leading" id="Sio-ta-oJn"/>
+                            <constraint firstItem="iP3-A4-wyg" firstAttribute="trailing" secondItem="awh-xj-ZlZ" secondAttribute="trailing" id="kBO-2n-pnY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="awh-xj-ZlZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="iP3-A4-wyg" id="xQs-rS-bXi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tT6-e2-d7N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-91.304347826086968" y="-10.597826086956523"/>
+        </scene>
+    </scenes>
+</document>
